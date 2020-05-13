@@ -50,7 +50,7 @@ At the end of this project, you are expected to be able to explain to anyone, **
 
 Please use the following data structures for this project. Don’t forget to include them in your header file.
 
-'''c
+'''html
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -67,7 +67,7 @@ typedef struct stack_s
         struct stack_s *next;
 } stack_t;
 '''
-'''c
+'''html
 /**
  * struct instruction_s - opcode and its function
  * @opcode: the opcode
