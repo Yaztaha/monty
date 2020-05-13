@@ -25,16 +25,16 @@ At the end of this project, you are expected to be able to explain to anyone, **
 ## Requirements
 
 ### General
-- Allowed editors: ‘vi‘, 'vim', 'emacs'
+- Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be compiled on Ubuntu 14.04 LTS
-- Your programs and functions will be compiled with 'gcc 4.8.4' using the flags '-Wall' '-Werror' '-Wextra' 'and' '-pedantic'
+- Your programs and functions will be compiled with `gcc 4.8.4` using the flags `-Wall` `-Werror` `-Wextra` `and` `-pedantic`
 - All your files should end with a new line
-- A 'README.md' file, at the root of the folder of the project is mandatory
-- Your code should use the 'Betty' style. It will be checked using betty-style.pl and betty-doc.pl
+- A `README.md` file, at the root of the folder of the project is mandatory
+- Your code should use the `Betty` style. It will be checked using betty-style.pl and betty-doc.pl
 - You allowed to use a maximum of one global variable
 - No more than 5 functions per file
 - You are allowed to use the C standard library
-- The prototypes of all your functions should be included in your header file called 'monty.h'
+- The prototypes of all your functions should be included in your header file called `monty.h`
 - Don’t forget to push your header file
 - All your header files should be include guarded
 - You are expected to do the tasks in the order shown in the project
@@ -50,7 +50,7 @@ At the end of this project, you are expected to be able to explain to anyone, **
 
 Please use the following data structures for this project. Don’t forget to include them in your header file.
 
-'''html
+```html
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -66,8 +66,8 @@ typedef struct stack_s
         struct stack_s *prev;
         struct stack_s *next;
 } stack_t;
-'''
-'''html
+```
+```html
 /**
  * struct instruction_s - opcode and its function
  * @opcode: the opcode
@@ -81,4 +81,4 @@ typedef struct instruction_s
         char *opcode;
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
-'''
+```
