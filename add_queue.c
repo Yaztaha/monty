@@ -3,7 +3,7 @@
 /**
  * add_queue - adds a node to the queue.
  * @new_node: pointer to the new node.
- * @ine_ln: line number.
+ * @line_n: line number.
  */
 void add_queue(stack_t **new_node, __attribute__((unused))unsigned int line_n)
 {
