@@ -12,7 +12,7 @@ void f_func(char *opcode, char *data, int n, int f)
 	int fl;
 
 	instruction_t op_list[] = {
-		{"push", push_to_stack},
+		{"push", pushstack},
 		{"pall", pall_stack},
 		{NULL, NULL}
 	};
@@ -65,7 +65,7 @@ void fun_call(op_func f, char *op, char *val, int ln, int format)
 		if (format == 0)
 			f(&node, ln);
 		if (format == 1)
-			add_in_queue(&node, ln);
+			add_queue(&node, ln);
 	}
 	else
 		f(&head, ln);
