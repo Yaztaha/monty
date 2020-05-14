@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * push_to_stack - adds a node to top of the stack.
+ * pushstack - adds a node to top of the stack.
  * @new_node: pointer to the new node.
  * @line_n: line number of of the opcode.
  */
-void push_to_stack(stack_t **new_node, __attribute__((unused))unsigned int line_n)
+void pushstack(stack_t **new_node, __attribute__((unused))unsigned int line_n)
 {
 	stack_t *tmp;
 
