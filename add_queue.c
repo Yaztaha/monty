@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * add_in_queue - adds a node to the queue.
+ * add_queue - adds a node to the queue.
  * @new_node: pointer to the new node.
  * @ine_ln: line number.
  */
-void add_in_queue(stack_t **new_node, __attribute__((unused))unsigned int line_n)
+void add_queue(stack_t **new_node, __attribute__((unused))unsigned int line_n)
 {
 	stack_t *tmp;
 
