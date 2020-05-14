@@ -76,4 +76,7 @@ void pint(stack_t **stack, unsigned int line_n);
 /*pop*/
 void pop(stack_t **stack, unsigned int line_n);
 
+/*swap*/
+void swap(stack_t **stack, unsigned int line_n);
+
 #endif
