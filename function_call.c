@@ -14,6 +14,7 @@ void f_func(char *opcode, char *data, int n, int f)
 	instruction_t op_list[] = {
 		{"push", pushstack},
 		{"pall", pall_stack},
+		{"pint", pint},
 		{NULL, NULL}
 	};
 
