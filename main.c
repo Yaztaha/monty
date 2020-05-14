@@ -1,6 +1,6 @@
 #include "monty.h"
 
-stack_t *head;
+stack_t *head = NULL;
 
 /**
  * main - main function for monty interpreter.
@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 }
 
 /**
- * create_node - create node.
+ * new_node - create node.
  * @n: number.
  * Return: node.
  */
@@ -36,7 +36,7 @@ stack_t *new_node(int n)
 }
 
 /**
- * free_nodes - frees nodes.
+ * free_node - frees nodes.
  */
 void free_node(void)
 {
