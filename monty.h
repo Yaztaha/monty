@@ -79,4 +79,7 @@ void pop(stack_t **stack, unsigned int line_n);
 /*swap*/
 void swap(stack_t **stack, unsigned int line_n);
 
+/*add*/
+void add(stack_t **stack, unsigned int line_n);
+
 #endif
