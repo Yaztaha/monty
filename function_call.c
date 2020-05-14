@@ -17,6 +17,7 @@ void f_func(char *opcode, char *data, int n, int f)
 		{"pint", pint},
 		{"pop", pop},
 		{"swap", swap},
+		{"add", add},
 		{NULL, NULL}
 	};
 
