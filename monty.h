@@ -24,6 +24,8 @@ typedef struct stack_s
 	struct stack_s *next;
 } stack_t;
 
+extern stack_t *head;
+
 /**
  * struct instruction_s - opcoode and its function
  * @opcode: the opcode
@@ -37,8 +39,6 @@ typedef struct instruction_s
 	char *opcode;
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
-
-extern stack_t *head;
 
 /*op_code*/
 typedef void (*op_func)(stack_t **, unsigned int);
