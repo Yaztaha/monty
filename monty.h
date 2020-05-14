@@ -60,10 +60,10 @@ void f_func(char *opcode, char *data, int n, int f);
 void fun_call(op_func f, char *op, char *val, int ln, int format);
 
 /*add_queue*/
-void add_in_queue(stack_t **new_node, __attribute__((unused))unsigned int line_n);
+void add_queue(stack_t **new_node, __attribute__((unused))unsigned int line_n);
 
 /*push*/
-void push_to_stack(stack_t **new_node, __attribute__((unused))unsigned int line_n);
+void pushstack(stack_t **new_node, __attribute__((unused))unsigned int line_n);
 
 /*pall*/
 void pall_stack(stack_t **stack, unsigned int line_n);
