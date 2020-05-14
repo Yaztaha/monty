@@ -38,9 +38,10 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+extern stack_t *head;
+
 /*op_code*/
 typedef void (*op_func)(stack_t **, unsigned int);
-extern stack_t *head;
 
 
 /*main.c*/
@@ -49,6 +50,7 @@ void free_node(void);
 
 /*errors_handling*/
 void errors(int error_code, ...);
+void errors1(int error_code, ...);
 
 /*file_open_read*/
 void open_file(char *file_name);
@@ -67,5 +69,8 @@ void pushstack(stack_t **new_node, __attribute__((unused))unsigned int line_n);
 
 /*pall*/
 void pall_stack(stack_t **stack, unsigned int line_n);
+
+/*pint*/
+void pint(stack_t **stack, unsigned int line_n);
 
 #endif
