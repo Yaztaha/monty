@@ -15,6 +15,8 @@ void f_func(char *opcode, char *data, int n, int f)
 		{"push", pushstack},
 		{"pall", pall_stack},
 		{"pint", pint},
+		{"pop", pop},
+		{"swap", swap},
 		{NULL, NULL}
 	};
 
