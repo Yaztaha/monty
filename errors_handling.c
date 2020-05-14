@@ -38,11 +38,11 @@ void errors(int error_code, ...)
 	free_node();
 	exit(EXIT_FAILURE);
 }
-
-/*
+/**
  * errors1 - more errors.
  * @error_code: error code.
  */
+
 void errors1(int error_code, ...)
 {
 	va_list ag;
