@@ -82,4 +82,7 @@ void swap(stack_t **stack, unsigned int line_n);
 /*add*/
 void add(stack_t **stack, unsigned int line_n);
 
+/*nop*/
+void nop(stack_t **stack, unsigned int line_n);
+
 #endif
